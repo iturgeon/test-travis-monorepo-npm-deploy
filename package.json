@@ -7,22 +7,10 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "test": "echo 'simulated tests!'",
-    "release": "release-it --no-npm.publish"
+    "test": "echo 'simulated tests!'"
   },
   "workspaces": [
     "packages/package-one",
     "packages/package-two"
-  ],
-  "devDependencies": {
-    "release-it": "^10.1.0"
-  },
-  "release-it": {
-    "github": {
-      "release": false
-    },
-    "npm": {
-      "release": false
-    }
-  }
+  ]
 }
