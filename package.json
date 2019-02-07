@@ -6,6 +6,9 @@
   "author": "Ian Turgeon <iturgeon@gmail.com>",
   "license": "MIT",
   "private": true,
+  "scripts":{
+    "test": "echo 'simulated tests!'"
+  },
   "workspaces": [
     "packages/package-one",
     "packages/package-two"
