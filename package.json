@@ -1,6 +1,6 @@
 {
   "name": "test-travis-monorepo-npm-deploy",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "main": "index.js",
   "repository": "https://github.com/iturgeon/test-travis-monorepo-npm-deploy.git",
   "author": "Ian Turgeon <iturgeon@gmail.com>",
