@@ -1,6 +1,6 @@
 {
   "name": "@iturgeon/package-two",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "repository": "https://github.com/iturgeon/test-travis-monorepo-npm-deploy.git",
   "author": "Ian Turgeon <iturgeon@gmail.com>",
   "description": "just testing another thing",
