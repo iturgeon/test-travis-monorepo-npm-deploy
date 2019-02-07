@@ -1,0 +1,8 @@
+{
+  "name": "package-two",
+  "version": "1.0.0",
+  "description": "just testing another thing",
+  "main": "index.js",
+  "license": "MIT",
+  "private": false
+}
