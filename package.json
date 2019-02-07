@@ -6,11 +6,14 @@
   "author": "Ian Turgeon <iturgeon@gmail.com>",
   "license": "MIT",
   "private": true,
-  "scripts":{
+  "scripts": {
     "test": "echo 'simulated tests!'"
   },
   "workspaces": [
     "packages/package-one",
     "packages/package-two"
-  ]
+  ],
+  "devDependencies": {
+    "release-it": "^10.1.0"
+  }
 }
