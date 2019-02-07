@@ -13,7 +13,7 @@ jobs:
 
     - stage: package-one npm release
       # only run this stage if its a tag that matches this a v1.23.3 pattern
-      if: tag =~ ^v[0-9]+.[0-9]+.[0-9]+
+      if: tag =~ ^v[0-9]+\.[0-9]+\.[0-9]+
       # run this on one node platform (allows us to put multiple platforms above for testing)
       node_js: '10.4.1'
       # move into the desired package and back out for deploying
@@ -31,7 +31,7 @@ jobs:
           secure: "Vej25HTIcuIzy/cs7r19rMoNn/YQ6ju6ZKcOg0igSFwFuzgOmBNGZN7oYUJSuWQ7Oo2AZ+AXbTex1xXFx09SuLmvmzq9HcLIUYN59tZm50pVR3Dc3CrXxZzK4F4jG1giTQ+cDVCTvk6ukvlJRir1pMjU96glhg2cDoIr8J5WVgyHorZMYn+TFmVhCn4JoZAiu8y4SWPUPL7p4dJfBl3d8RLgTdR5EwCC9cOkUVdpEDcMqhZ+/PelieeeeU2VLHJP+SjaXPcUJhGXQUpFnTnFuGAl4W9tjlRcr14PNnWJlGLESqKb/fu9BD0XoSfTcyLTKdC26W/rbxTI/T3lFrh//nFqIweBrrg7hBdgsGMWqL7xEvPxz8XJb8uwwZoN4Yi1EoZ/qYkxsG3jxGLkU+QJo4UDdkTpjYtdUIvUboFqpmSt5LL+if0DWjjS66CVWmd0SG5buwZyt2BX/W2D00KXy3qzElzbiwho2SWdlhFSCuSgFWWZptiXfe2/cXh2y1C4MvciU8oqTBuoKq8D43v+nOVctzPHLfQfk823VYeN+dXEAXI8LqqMSohLYkbJDI4V3+zXC2Fm9WuzqK+pdp2CEZXGynK30xY6uXyYvZux63/lx0UjUiMxBm73V1J1VfEkRIcweYCt5oPEVM+cUASsx0Sdy4fMzE/HQpB92B8Fh2g="
 
     - stage: package-two npm release
-      if: tag =~ ^v[0-9]+.[0-9]+.[0-9]+
+      if: tag =~ ^v[0-9]+\.[0-9]+\.[0-9]+
       node_js: '10.4.1'
       before_deploy:
         - cd packages/package-two
