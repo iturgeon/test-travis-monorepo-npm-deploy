@@ -1,8 +1,7 @@
 {
-  "name": "package-one",
+  "name": "@iturgeon/package-one",
   "version": "1.0.0",
   "description": "just testing",
   "main": "index.js",
-  "license": "MIT",
-  "private": false
+  "license": "MIT"
 }
