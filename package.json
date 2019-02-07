@@ -15,5 +15,9 @@
   ],
   "devDependencies": {
     "release-it": "^10.1.0"
+  },
+  "release-it":{
+    "github":{"release":false},
+    "npm":{"release":false}
   }
 }
